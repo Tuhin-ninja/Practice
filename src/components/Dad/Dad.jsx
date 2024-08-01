@@ -3,12 +3,12 @@ import MySelf from '../MySelf/MySelf'
 import Brother from '../Brother/Brother'
 import Sister from '../Sister/Sister'
 
-export default function Dad({asset}) {
+export default function Dad() {
   return (
     <div>
         <h2>Dad</h2>
         <section className='flex'>
-            <MySelf asset={asset}></MySelf>
+            <MySelf></MySelf>
             <Brother></Brother>
             <Sister></Sister>
         </section>
