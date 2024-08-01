@@ -1,0 +1,9 @@
+form {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; Adjust the gap between input fields */
+  }
+  
+  input {
+    margin-bottom: 10px; /* Adjust the space below each input */
+  }
